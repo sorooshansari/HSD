@@ -1,0 +1,103 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HSD, Hero Sustainable Development, soroosh ansari" />
+    <meta name="description" content="Hero Sustainable Development" />
+    <link rel="shortcut icon" href="ico/favicon.png"> 
+    <title>@ViewBag.Title - Hero Sustainable Development</title>
+    @Styles.Render("~/bundles/HSDcss")
+    
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>
+    <div>
+        <header id="header-2" class="header-2">
+            <nav class="main-nav navbar navbar-default navbar-fixed-top topnav">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button id="navbar-btn" onclick="btnrotate()" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#">
+                            <img src="~/images/hsd-logo.png" class="brand-img img-responsive">
+                            <span class="brandname hero">Hero</span>
+                            <span class="brandname sustainable">Sustainable</span>
+                            <span class="brandname development">Development</span>
+                        </a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right topnav">
+                            <li class="nav-item active">
+                                <a href="#Home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#content-3-7">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#content-2-9">Pricing</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="dropdown-toggle drpdwn" data-toggle="dropdown" data-delay="0" data-close-others="false">Pages <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="#">Dropdown 1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dropdown 2</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dropdown 3</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dropdown 4</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dropdown 5</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Dropdown 6</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!-- /.dropdown -->
+                            <li class="nav-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </header>
+        <div id="scrolltxt" style="position:fixed; height:50px;width:50px; color:red; top:200px; left:0px; background-color:black; z-index:9999">
+        </div>   
+    </div>
+    <div>
+        @RenderBody()
+        <footer>
+            <div class="copyright-bar-2 bg-green">
+                <div class="container text-center">
+                    <p>© COPYRIGHT 2016 - Hero Sustainable Development - ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>  
+        </footer>
+    </div>
+
+    @Scripts.Render("~/bundles/HSDjs")
+    <script src="https://maps.google.com/maps/api/js?sensor=true"></script>  
+</body>
+</html>

@@ -1,0 +1,223 @@
+
+
+/* Put your custom styles here */
+
+/* cyrillic-ext */
+
+@font-face{
+    font-family: 'engebrechtre';
+    src: url('../fonts/engebrechtre.eot');
+    src: url('../fonts/engebrechtre.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/engebrechtre.woff2') format('woff2'),
+         url('../fonts/engebrechtre.woff') format('woff'),
+         url('../fonts/engebrechtre.ttf') format('truetype'),
+         url('../fonts/engebrechtre.svg#engebrechtre') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+	font-family: 'TrajanPro3';
+	src: url('../fonts/TrajanPro3-Bold.eot');
+	src: url('../fonts/TrajanPro3-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TrajanPro3-Bold.woff2') format('woff2'),
+		url('../fonts/TrajanPro3-Bold.woff') format('woff'),
+		url('../fonts/TrajanPro3-Bold.ttf') format('truetype'),
+		url('../fonts/TrajanPro3-Bold.svg#TrajanPro3-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Simpson';
+	src: url('../fonts/Simpson.eot');
+	src: url('../fonts/Simpson.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Simpson.woff2') format('woff2'),
+		url('../fonts/Simpson.woff') format('woff'),
+		url('../fonts/Simpson.ttf') format('truetype'),
+		url('../fonts/Simpson.svg#Simpson') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: 'Euphorigenic';
+	src: url('../fonts/Euphorigenic.eot');
+	src: url('../fonts/Euphorigenic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Euphorigenic.woff2') format('woff2'),
+		url('../fonts/Euphorigenic.woff') format('woff'),
+		url('../fonts/Euphorigenic.ttf') format('truetype'),
+		url('../fonts/Euphorigenic.svg#Euphorigenic') format('svg');
+		url('../fonts/Euphorigenic.svg#Euphorigenic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+    font-family: 'freightbold';
+    src: url('../fonts/freight_sans_bold_sc-webfont.eot');
+    src: url('../fonts/freight_sans_bold_sc-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/freight_sans_bold_sc-webfont.woff2') format('woff2'),
+         url('../fonts/freight_sans_bold_sc-webfont.woff') format('woff'),
+         url('../fonts/freight_sans_bold_sc-webfont.ttf') format('truetype'),
+         url('../fonts/freight_sans_bold_sc-webfont.svg#freightbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+  font-family: 'Trajan';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/TrajanProRegular.eot") format("eot"), url("fonts/TrajanProRegular.woff") format("woff"), url("fonts/TrajanProRegular.ttf") format("truetype");  
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+@font-face{
+  font-family: 'TrajanPro-Bold';
+  src: url('../fonts/TrajanPro-Bold.eot') format('embedded-opentype');
+}
+
+@font-face{
+  font-family: 'TrajanPro-Bold';
+  src:  url('../fonts/TrajanPro-Bold.otf')  format('opentype'),
+	     url("../fonts/TrajanProRegular.woff") format("woff"),
+		   url('../fonts/TrajanPro-Bold.ttf')  format('truetype'),
+		    url('../fonts/TrajanPro-Bold.svg#TrajanPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+    font-family: 'trocchireg';
+    src: url('../fonts/trocchi-webfont.eot');
+    src: url('../fonts/trocchi-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/trocchi-webfont.woff2') format('woff2'),
+         url('../fonts/trocchi-webfont.woff') format('woff'),
+         url('../fonts/trocchi-webfont.ttf') format('truetype'),
+         url('../fonts/trocchi-webfont.svg#trocchiregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'trocchibold';
+    src: url('../fonts/trocchi_405-webfont.eot');
+    src: url('../fonts/trocchi_405-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/trocchi_405-webfont.woff2') format('woff2'),
+         url('../fonts/trocchi_405-webfont.woff') format('woff'),
+         url('../fonts/trocchi_405-webfont.ttf') format('truetype'),
+         url('../fonts/trocchi_405-webfont.svg#trocchi_boldbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html
+{
+    min-width: 320px;
+}
+
+.topnav
+{
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.brandname
+{
+    top: 20px;
+    font-family: 'Euphorigenic';
+    font-variant: small-caps;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.brandname:hover
+{
+    color: #FFF !important;
+    text-shadow: 0px 0px 10px #0D6530,0px 0px 10px #0D6530,0px 0px 10px #0D6530,0px 0px 10px #0D6530;
+}
+
+.hero
+{
+    color: #06351D;
+    font-size: 34px;
+}
+
+.sustainable
+{
+    color: #086A39;
+    font-size: 32px;
+}
+
+.development
+{
+    color: #3DB54A;
+    font-size: 30px;
+}
+
+.rotated
+{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.onbigpic
+{
+    color: #545454;
+    font-size: 130%;
+}
+
+#TQ
+{
+    color: #545454;
+    font-size: 230%;
+}
+
+#footerbrand
+{
+    height: auto !important;
+}
+
+.ftcontactbox
+{
+    width: 35%;
+}
+
+.middel-bar
+{
+    height: 35px;
+}
+
+.midcontainer
+{
+    height: 35px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.midcontainer p
+{
+    color: #fff;
+    margin-top: 10px;
+}
+
+.content-3-7
+{
+    padding: 60px 0 60px 0;
+        height: 280px !important;
+}
+
+
